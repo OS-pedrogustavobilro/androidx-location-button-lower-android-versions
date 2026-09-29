@@ -45,6 +45,9 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.core.locationbutton.compose)
+    // Theme.Material3.DayNight.NoActionBar (the Activity's XML theme) is defined by this
+    // classic Views library, independently of Compose's own MaterialTheme.
+    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
