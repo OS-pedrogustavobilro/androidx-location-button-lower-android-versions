@@ -1,10 +1,14 @@
 # LocationButtonLowerAndroidVersions
 
+> Built with Claude Code.
+
 Two apps (`:app` — Compose, `:app-views` — Views) that both render the same grid of
 `androidx.core.locationbutton.LocationButton` instances across a matrix of sizes,
 paddings, and corner radii, for visual comparison across Android versions.
 
 ## The issue
+
+Issue tracker: https://issuetracker.google.com/issues/567953859
 
 On Android 17 (API 37), `LocationButton` renders as the real system-secure button. On
 older versions the library falls back to a compat rendering. That compat fallback has
